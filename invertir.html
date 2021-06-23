@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulario de registro - Mi web</title>
+</head>
+   <BODY background="w.jpg">
+ <BODY TEXT="White">
+
+<body>
+   <CENTER><H1><a href="mio.html"style="text-decoration:none"><font color="white"> &#128147;PIZZA PARADISE&#128147; </font></a></H1></CENTER> 
+<h1><font color="aqua">¿¡¡QUIERES SER UN SOCIO DE PIZZAS PARADISE!!?</font></h1>
+<p>Ahora puedes ser parte de todo esto solo dondonos una invercion minima de 500 pesos mexicanos,
+resiviras grandes cosas por confiar en nosotros (una vez que mandes tu solicitud para ser socio de paradise  nosotros te haremos llegar todo la informacion respecto a las recompensas y formas de pago.</p>
+
+<p><h1><font color="aqua">SOLICITUD PARA SER SOCIO DE PARADISE</font></h1></p>
+
+<form action="" method="get">
+<p>
+<label for="nombre">Nombre(s):</label> <input type="text" name="nombre" id="nombre" maxlength="50" />
+</p>
+<p>
+<label for="apellidos">Apellidos:</label> <input type="text" name="apellidos" id="apellidos" maxlength="50" />
+</p>
+<p>
+Sexo: <input type="radio" name="sexo" id="sexo-h" value="h" /> <label for="sexo-h">hombre</label> <input type="radio" name="sexo" id="sexo-m" value="m" /> <label for="sexo-m">mujer</label>
+</p>
+<p>
+<label for="correo">Correo:</label> <input type="text" name="correo" id="correo" maxlength="100" />
+</p>
+<p>
+<label for="telefono">telefono:</label> <input type="text" name="correo" id="correo" maxlength="100" />
+</p>
+<p>
+<input type="checkbox" name="info" id="info" checked="checked" /> <label for="info">Deseo recibir información sobre novedades y ofertas <font color="aqua"> (opcional)</font></label>
+</p>
+<p>
+<input type="checkbox" name="condiciones" id="condiciones" /> <label for="condiciones"> Deseo resibir informacion sobre la forma de pago y todas las remcompensas por ser socio de PARADISE <font color="aqua">(ESTE CAMPO ES OBLIGATORIO)</font></label>
+</p>
+<p>
+<input type="submit" a value="Enviar" onclick = function(){
+    alert('Hey Alerta Wey!'); />
+</p>
+
+
+<p><br>
+<CENTER> <H2><a href="tamaños.html"><font color="yellow">Regresar</a></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mio.html"><font color="yellow">Regresar a la pagina principal</a></H2></CENTER></font>                     
+</p></br>
+
+
+<script language="JavaScript">
+    	var reloj = 0;
+    	var frecuencia = 1000;
+    	function actualiza() {
+      	var ahora = new Date();
+      	var fecha = ahora.getDate() + " - " + (ahora.getMonth() + 1) + " - " + ahora.getFullYear();
+      	var hora = ahora.getHours() + ":" + ahora.getMinutes() + ":" + ahora.getSeconds();
+      	var escribe = 'Hoy es ' + fecha + ' y son las ' + hora + ' horas';
+     	var situa = document.getElementById('capa0');
+      situa.innerHTML = escribe;
+      reloj = setTimeout("actualiza()", frecuencia);
+    	}
+  	</script>
+      <TITLE>Cronómetro</TITLE>
+     </HEAD>
+     <BODY onLoad="actualiza()" ;>
+     <div id="capa0"> </div>
+
+
+</form>
+</body>
+</html>

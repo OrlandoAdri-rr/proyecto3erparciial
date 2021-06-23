@@ -1,0 +1,59 @@
+<HTML>
+       <HEAD>
+                <TITLE>MI PIZZERIA</TITLE>
+
+ 
+       
+      <HEAD>
+      <BODY BGCOLOR="99CC99">
+      <BODY background="w.jpg">
+      <BODY TEXT="White">
+      <BODY>
+
+
+      <BODY>
+                      
+<IMG SRC="r.png" align="left"WHIT="140"HEIGHT="180"</IMG>            <IMG SRC="r.png"align="right"WHIT="140"HEIGHT="180"></IMG>
+                 <CENTER><H1><a href="mio.html"style="text-decoration:none"><font color="white"> &#128147;PIZZA PARADISE&#128147; </font></a></H1></CENTER> 
+
+
+<CENTER><IMG SRC="tama.jpg"WHIT="300"HEIGHT="250"border="4"></CENTER>
+
+<P><H3><B>PRECIOS PARA CADA UNA DE LAS PIZZAS:</B></H3</P>
+
+<BODY>
+    <ul>
+        <li>CHICA:$130.00</li>
+        <li>MEDIANA:$190.00</li>
+        <li>GRANDE:$230.00</li>
+        <li>FAMILIAR:$270.00</li>
+    </ul>
+</BODY>
+
+ <CENTER> <H2><a href="PIZZERIA.html"><font color="yellow">Regresar</a></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="invertir.html"><font color="yellow">¿¡Quires ser parte de nuestra familia!?</a></H2></CENTER></font>                     
+
+
+
+<script language="JavaScript">
+    	var reloj = 0;
+    	var frecuencia = 1000;
+    	function actualiza() {
+      	var ahora = new Date();
+      	var fecha = ahora.getDate() + " - " + (ahora.getMonth() + 1) + " - " + ahora.getFullYear();
+      	var hora = ahora.getHours() + ":" + ahora.getMinutes() + ":" + ahora.getSeconds();
+      	var escribe = 'Hoy es ' + fecha + ' y son las ' + hora + ' horas';
+     	var situa = document.getElementById('capa0');
+      situa.innerHTML = escribe;
+      reloj = setTimeout("actualiza()", frecuencia);
+    	}
+  	</script>
+      <TITLE>Cronómetro</TITLE>
+     </HEAD>
+     <BODY onLoad="actualiza()" ;>
+     <div id="capa0"> </div>
+ </BODY>
+               </HTML> 
+
+
+
+

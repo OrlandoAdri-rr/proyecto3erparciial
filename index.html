@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+   <HTML>
+     <HEAD>
+//<meta charset="utf-8"/>
+<script type="text/javascript">
+function muestraOculta(id) {
+var elemento = document.getElementById('contenidos_'+id);
+var enlace = document.getElementById('enlace_'+id);
+if(elemento.style.display == "" || elemento.style.display == "block") {
+elemento.style.display = "none";
+enlace.innerHTML = 'Mostrar contenidos';
+}
+else {
+elemento.style.display = "block";
+enlace.innerHTML = 'Ocultar contenidos';
+}
+}
+</script>
+ 
+
+                  <title>Prueba HTML5 PIZZAS PARADISE</title>
+       
+           <link rel="stylesheet" type="text/css" href="estilloS.css" title="miEjemplo" media="all"/>
+     </head>
+         <body>
+
+      <nav> 
+           
+            <p><a href="PIZZERIA.HTML">PROMOCIONES Y ESPECIALIDADES </a></p>
+            <p><a href="tamaños.html">TAMAÑOS Y PRECIOS</a></p>
+            <p><a href="invertir.html">¿¡Quieres ser parte de nuestra familia!?</a></p>
+          
+    </nav>
+
+<main>
+     <h1>&#128147;PIZZAS PARADICE&#128147;</h1>
+    
+     <h3>Un poco de nuestra historia</h3>
+   <article>
+       <p id="contenidos_1"> Nuestra pizzeria fue fundada en 1993 por el italiano Franco Malvezzi, y ocupa el local de la Avenida Corrientes 1368. Su especialidad es la pizza al molde (es decir, con masa gruesa y no muy crocante),aunque también se ofrece la variedad media masa (un poco más fina), y ambas se cocinan en horno a leña.
+
+</p>
+<a id="enlace_1" href="#" onclick="muestraOculta('1'); return false;">Ocultar contenido</a>
+<br/>
+    </article>
+
+        <h3>Nuestros edificios</h3>
+    <article>
+          <p> <p id="contenidos_2">  PARADICE no tiene sucursales, y el único local que tiene se encuentra en el mismo lugar desde hace décadas. Consta de varios sectores bien diferenciados, de acuerdo a los distintos tipos de cliente.Desde la entrada vidriada se accede al primer ambiente, alargado y angosto, destinado a quienes comen al paso, de parados y con apuro. Allí se encuentra a un lado la mesa de postres (tortas, tartas, flan, ensalada de frutas, frutillas a la crema) y al otro la barra. En el medio de este ambiente se disponen dos mesadas fijas, también alargadas, donde los comensales llevan sus platos con porciones. Al fondo se encuentra la caja registradora, donde se realizan los pedidos, junto al mostrador al frente de la cocina, de la cual salen pizzas recién hechas constantemente, a toda hora del día. El cliente retira sus cubiertos y sus porciones de pizza y fainá, y come en las dos mesadas o sobre la barra, donde también se pueden pedir empanadas y pascualina, y las bebidas (cerveza, agua mineral, gaseosas o vino tinto, moscato o blanco). Junto a la barra hay un pasillo con mesas chicas, que comunica con el segundo ambiente, con otra barra al fondo y mozos que atienden mesas con familias o parejas. Por un costado de este espacio, una escalera comunica con un pequeño entrepiso con mesas más grandes. Por último, otra comunica el entrepiso con el piso superior del local, amplio y atendido por otro grupo de mozos, destinado a familias o a reuniones, de mayor refinamiento, privacidad y tranquilidad, con un ventanal que mira a la Avenida Corrientes.</p>
+<a id="enlace_2" href="#" onclick="muestraOculta('2'); return false;">Ocultar contenido</a>
+<br/>
+    </article>
+
+       <h3>Un poco de nuestras pizzas</h3>
+    <article>
+           <p><p id="contenidos_3"> PARADICE vende sus pizzas enteras o por porciones solamente dentro de su local. Hay desde las pizzas básicas con queso mozzarella, salsa de tomate y aceitunas, fainá, con jamón, a la pomarola, fugazza (con cebolla), de acelga con salsa blanca o napolitana (con rodajas de tomate y ajo); hasta versiones más costosas con panceta, queso roquefort, anchoas, longaniza, morrones, ananá, palmitos, mariscos, huevo duro, puerro, etc. La Pizza PARADICE lleva muzzarela, morrón, jamón y aceitunas. La Especial de la Casa tiene muzzarela, jamón, tomate en rodajas y aceitunas, y toronjas a gusto. Como detalle de color, siendo que la pizza más solicitada es la mozzarella en porciones así como la faina, poseen un código de dos dígitos en el cual el primer número indica las porciones de mozzarella solicitadas y el segundo número las porciones de faina. Así, por ejemplo, si uno pide 2 porciones de mozzarella y 1 de faina escuchará que a quien debe servirles al plato le solicitarán un "21". Si se pide 2 porciones de mozzarella solas, escuchará que se pide un "20".</p>
+<a id="enlace_3" href="#" onclick="muestraOculta('3'); return false;">Ocultar contenido</a></p>
+   <CENTER><IMG SRC="pizza.jpg"WHIT="300"HEIGHT="250"border="4"></CENTER> </article>
+
+       <br/><br/>
+   </main>
+  <aside>
+   <div id="anuncio1">
+      <h1>¿¡Quieres trabajar de diseñador grafico!?</h1>
+      <h2>¡¡¡Es tu oportunidad !!!</h2>
+      <p>Da el primer paso para trabajar con nosotros<p>
+       <CENTER><IMG SRC="bb.jpg"WHIT="150"HEIGHT="100"border="4"></CENTER>
+
+<p>Interesados llamar al telefono 5558412603 
+      contactar en <a href="mailto:orlando_1d_disenografico@hotmail.com">orlando_1d_disenografico@hotmail.com</a></p>
+    </div>
+</aside>
+
+
+<footer>
+   <h1>&#128147;Pizzas PARADICE las mejores para el antojito&#128147;<p>ubicada en calle eucalipto #3 valcones de san agustin</p></h1>
+   <h2><font color="yellow">llamar al: 555851485003 </font><a href="mailto:orlando_1d_disenografico@hotmail.com"> o preciona aqui para contactanos atravez de nuestro correo ¡¡¡¡Estamos muy atentos!!!!</a></B>
+   <br/>
+
+<font color="white"><script language="JavaScript">
+    	var reloj = 0;
+    	var frecuencia = 1000;
+    	function actualiza() {
+      	var ahora = new Date();
+      	var fecha = ahora.getDate() + " - " + (ahora.getMonth() + 1) + " - " + ahora.getFullYear();
+      	var hora = ahora.getHours() + ":" + ahora.getMinutes() + ":" + ahora.getSeconds();
+      	var escribe = 'Hoy es ' + fecha + ' y son las ' + hora + ' horas';
+     	var situa = document.getElementById('capa0');
+      situa.innerHTML = escribe;
+      reloj = setTimeout("actualiza()", frecuencia);
+    	}
+  	</script>
+      <TITLE>Cronómetro</TITLE>
+     </HEAD>
+     <BODY onLoad="actualiza()" ;>
+     <div id="capa0"> </div></font>
+</footer>
+  </body>
+    </html>
